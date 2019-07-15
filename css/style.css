@@ -1,0 +1,251 @@
+body{
+    color: #000305;
+    font-size: 90%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;   
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #CF5C3F;
+
+}
+a:active {
+     background-color: #CF5C3F;
+     color: #fff;
+}
+.body {
+    margin: 0 auto;
+    width: 95%;
+    clear: both;
+}
+/*Mobile navigation*/
+.topnav {
+    overflow: hidden;
+    background-color:#717171;
+    position: relative;
+    width: 100%;
+    display: none;
+  }
+  .topnav #myLinks {
+    display:none;
+  }
+  
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a.icon {
+    background: #CF5C3F;
+    display: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+  .topnav a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  .active {
+    background-color: seagreen;
+    color: white;
+  }
+
+footer{
+    background-color: #666;
+    height: 40px;
+    line-height: 40px;
+    clear: both;
+}
+footer p{
+    margin-left: 20px;
+    color: #fff;
+    text-align: center;
+}
+.footerItems {
+    width: 30%;
+    float: left;
+}
+.footerItems p {
+    text-align: center;
+    font-size: 18px;
+}
+.footerItems ul li {
+   list-style: bullets;
+   font-size: 12px;
+}
+/*Horizontal navigation*/
+.mainHeader nav {
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+   margin-top: 5px;
+}
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+.mainHeader nav ul li {
+    float: left;
+}
+.mainHeader a:link, .mainHeader a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+.mainHeader nav ul li a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: #CF5C3F;
+}
+.mainHeader ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.headerImage {
+    background-image: url('../img/vector.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -23px;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.headerImage h1,h2{
+    text-align: center;
+    color: #fff;
+}
+.headerImage h1 {
+    padding: 150px 0 0;
+    font-size: 70px;
+    text-shadow: 3px 3px 8px #111;
+    font-weight: 900;
+    line-height: 70px;    
+}
+
+
+
+.mainContent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.topcontent {
+    width: 47%;
+    float: left;
+    
+}
+.topcontent content article p{
+    text-align: justify;
+    padding: 0 8px;
+}
+
+.secondImage {
+    background-image: url('../img/rocket.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clear: both;
+}
+
+footer{
+    background-color: #666;
+    height: 40px;
+    line-height: 40px;
+    clear: both;
+}
+footer p{
+    margin-left: 20px;
+    color: #fff;
+}
+.footerItems {
+    width: 30%;
+    float: left;
+}
+.footerItems p {
+    text-align: center;
+    font-size: 18px;
+}
+.footerItems ul li {
+   list-style: bullets;
+   font-size: 12px;
+}
+
+/*Animate Logo*/
+
+
+
+
+/*Responsive*/
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+   .body {
+    width: 90%;
+    font-size: 95%;
+    } 
+    .headerImage {
+        width: 100%;
+    }
+    .mainHeader nav {
+    height: 240px;
+    display: none;
+    }
+    .mainHeader nav ul {
+        padding-left: 0;   
+    }
+    .mainHeader nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .mainHeader ul a:link, .mainHeader ul a:visited {
+        padding: 10px 25px;
+        height: 20px;  
+        display: block;  
+        }
+    .topcontent {
+        width: 100%
+    }
+    .footerItems {
+        width: 100%;
+    }
+    .headerImage {
+        background-image: url('../img/vector.jpg');
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: -23px;
+         border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        }
+    .topnav {
+        overflow: hidden;
+        background-color:#717171;
+        position: relative;
+        width: 100%;
+        display: block;
+      }
+      .lci_logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+    
+
+}
